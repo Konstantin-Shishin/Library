@@ -46,5 +46,11 @@ namespace WindowsFormsLibr
             Form newForm = new Giveout();
             newForm.Show();
         }
+
+        private void отчетыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form newForm = new Otchet();
+            newForm.Show();
+        }
     }
 }
